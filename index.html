@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Крестики нолики</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link href="../Tic-tac-toe/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container_0">Крестики-нолики</div>
+        <form class="form"> 
+            <label for="1">
+                <input id="1" type="radio" name="question" class="radio_input">
+                <div class="form_1"></div>
+                <div class="form_1_1"></div>
+                Играть с друзьям
+            </label><br>
+            <label for="2">
+                <input id="2" type="radio" name="question" class="radio_input1">
+                <div class="form_2"></div>
+                <div class="form_2_1"></div>
+                бот
+            </label><br>
+            <label for="3">
+                <input id="3" type="radio" name="question" class="radio_input2">
+                <div class="form_3"></div>
+                <div class="form_3_1"></div>
+                Хард мод
+            </label><br>
+        </form>
+        <div class="app" id="app">
+            <div class="app_block" data-item="0" id="0"></div>
+            <div class="app_block_0">
+                <div class="app_block_0_x">
+                    <div class="app_block_0_x_1"></div>
+                    <div class="app_block_0_x_2"></div>
+                </div>
+                <div class="app_block_0_0">
+                    <div class="app_block_0_0_1"></div>
+                    <div class="app_block_0_0_2"></div>
+                </div>
+            </div>
+            <div class="app_block" data-item="1" id="1"></div>
+            <div class="app_block_1">
+                <div class="app_block_1_x">
+                    <div class="app_block_1_x_1"></div>
+                    <div class="app_block_1_x_2"></div>
+                </div>
+                <div class="app_block_1_0">
+                    <div class="app_block_1_0_1"></div>
+                    <div class="app_block_1_0_2"></div>
+                </div>
+            </div>
+            <div class="app_block" data-item="2" id="2"></div>
+            <div class="app_block_2">
+                <div class="app_block_2_x">
+                    <div class="app_block_2_x_1"></div>
+                    <div class="app_block_2_x_2"></div>
+                </div>
+                <div class="app_block_2_0">
+                    <div class="app_block_2_0_1"></div>
+                    <div class="app_block_2_0_2"></div>
+                </div>
+            </div>
+            <div class="app_block" data-item="3" id="3"></div>
+            <div class="app_block_3">
+                <div class="app_block_3_x">
+                    <div class="app_block_3_x_1"></div>
+                    <div class="app_block_3_x_2"></div>
+                </div>
+                <div class="app_block_3_0">
+                    <div class="app_block_3_0_1"></div>
+                    <div class="app_block_3_0_2"></div>
+                </div>
+            </div>
+            <div class="app_block" data-item="4" id="4"></div>
+            <div class="app_block_4">
+                <div class="app_block_4_x">
+                    <div class="app_block_4_x_1"></div>
+                    <div class="app_block_4_x_2"></div>
+                </div>
+                <div class="app_block_4_0">
+                    <div class="app_block_4_0_1"></div>
+                    <div class="app_block_4_0_2"></div>
+                </div>
+            </div>
+            <div class="app_block" data-item="5" id="5"></div>
+            <div class="app_block_5">
+                <div class="app_block_5_x">
+                    <div class="app_block_5_x_1"></div>
+                    <div class="app_block_5_x_2"></div>
+                </div>
+                <div class="app_block_5_0">
+                    <div class="app_block_5_0_1"></div>
+                    <div class="app_block_5_0_2"></div>
+                </div>
+            </div>
+            <div class="app_block" data-item="6" id="6"></div>
+            <div class="app_block_6">
+                <div class="app_block_6_x">
+                    <div class="app_block_6_x_1"></div>
+                    <div class="app_block_6_x_2"></div>
+                </div>
+                <div class="app_block_6_0">
+                    <div class="app_block_6_0_1"></div>
+                    <div class="app_block_6_0_2"></div>
+                </div>
+            </div>
+            <div class="app_block" data-item="7" id="7"></div>
+            <div class="app_block_7">
+                <div class="app_block_7_x">
+                    <div class="app_block_7_x_1"></div>
+                    <div class="app_block_7_x_2"></div>
+                </div>
+                <div class="app_block_7_0">
+                    <div class="app_block_7_0_1"></div>
+                    <div class="app_block_7_0_2"></div>
+                </div>
+            </div>
+            <div class="app_block" data-item="8" id="8"></div>
+            <div class="app_block_8">
+                <div class="app_block_8_x">
+                    <div class="app_block_8_x_1"></div>
+                    <div class="app_block_8_x_2"></div>
+                </div>
+                <div class="app_block_8_0">
+                    <div class="app_block_8_0_1"></div>
+                    <div class="app_block_8_0_2"></div>
+                </div>
+            </div>
+            <div class="container_1"></div>
+            <div class="container_2"></div>
+            <div class="container_3"></div>
+            <div class="container_4"></div>
+            <div class="container_5">Победили крестики</div>
+            <div class="container_6">Победили нолики</div>
+            <div class="container_6_6">Победила дружба</div>
+            <div class="container_7"></div>
+            <div class="container_8"></div>
+            <div class="container_9"></div>
+            <div class="container_10"></div>
+            <div class="container_11"></div>
+            <div class="container_12"></div>
+            <div class="container_13"></div>
+            <div class="container_14"></div> 
+        </div>
+        <button type="submit" id="submit" class="button">переиграть</button>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="../Tic-tac-toe/script.js"></script>
+    </body>
+</html>

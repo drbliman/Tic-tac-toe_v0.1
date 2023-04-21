@@ -1,0 +1,468 @@
+body {
+    color: #fff;
+    margin: auto;
+    min-width: 450px;
+}
+.app {
+    position: absolute;
+    left: calc(50% - 318px/2);
+    top: 300px;
+    width: 318px;
+    height: 318px;
+}
+.app.active {
+    pointer-events: none;
+}
+.app_block{
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    float: left;
+}
+.app_block_0,
+.app_block_1,
+.app_block_0_x,
+.app_block_1_x,
+.app_block_0_0,
+.app_block_1_0,
+.app_block_2,
+.app_block_2_x,
+.app_block_1_0,
+.app_block_3,
+.app_block_3_x,
+.app_block_3_0,
+.app_block_4,
+.app_block_4_x,
+.app_block_4_0,
+.app_block_5,
+.app_block_5_x,
+.app_block_5_0,
+.app_block_6,
+.app_block_6_x,
+.app_block_6_0,
+.app_block_7,
+.app_block_7_x,
+.app_block_7_0,
+.app_block_8,
+.app_block_8_x,
+.app_block_8_0 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    pointer-events: none;
+}
+.app_block_0_x,
+.app_block_0_0,
+.app_block_1_x,
+.app_block_1_0,
+.app_block_2_x,
+.app_block_2_0,
+.app_block_3_x,
+.app_block_3_0,
+.app_block_4_x,
+.app_block_4_0,
+.app_block_5_x,
+.app_block_5_0,
+.app_block_6_x,
+.app_block_6_0,
+.app_block_7_x,
+.app_block_7_0,
+.app_block_8_x,
+.app_block_8_0 {
+    margin: 0;
+}
+.app_block_1 {
+    left: 106px;
+}
+.app_block_2 {
+    left: 209px;
+}
+.app_block_3 {
+    top: 106px;
+}
+.app_block_4 {
+    top: 106px;
+    left: 106px;
+}
+.app_block_5 {
+    top: 106px;
+    left: 209px;
+}
+.app_block_6 {
+    top: 209px;
+}
+.app_block_7 {
+    top: 209px;
+    left: 106px;
+}
+.app_block_8 {
+    top: 209px;
+    left: 209px;
+}
+.app_block_0_x_1,
+.app_block_0_x_2,
+.app_block_1_x_1,
+.app_block_1_x_2,
+.app_block_2_x_1,
+.app_block_2_x_2,
+.app_block_3_x_1,
+.app_block_3_x_2,
+.app_block_4_x_1,
+.app_block_4_x_2,
+.app_block_5_x_1,
+.app_block_5_x_2,
+.app_block_6_x_1,
+.app_block_6_x_2,
+.app_block_7_x_1,
+.app_block_7_x_2,
+.app_block_8_x_1,
+.app_block_8_x_2 {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(116, 230, 81);
+    pointer-events: none;
+    transform: rotate(45deg);
+    border-radius: 10px;
+    opacity: 0;
+}
+.app_block_0_x_2,
+.app_block_1_x_2,
+.app_block_2_x_2,
+.app_block_3_x_2,
+.app_block_4_x_2,
+.app_block_5_x_2,
+.app_block_6_x_2,
+.app_block_7_x_2,
+.app_block_8_x_2 {
+    transform: rotate(-45deg);
+}
+.app_block_0_x_1.active,
+.app_block_0_x_2.active,
+.app_block_1_x_1.active,
+.app_block_1_x_2.active,
+.app_block_2_x_1.active,
+.app_block_2_x_2.active,
+.app_block_3_x_1.active,
+.app_block_3_x_2.active,
+.app_block_4_x_1.active,
+.app_block_4_x_2.active,
+.app_block_5_x_1.active,
+.app_block_5_x_2.active,
+.app_block_6_x_1.active,
+.app_block_6_x_2.active,
+.app_block_7_x_1.active,
+.app_block_7_x_2.active,
+.app_block_8_x_1.active,
+.app_block_8_x_2.active {
+    opacity: 1;
+}
+.app_block_0_0_1,
+.app_block_0_0_2,
+.app_block_1_0_1,
+.app_block_1_0_2,
+.app_block_2_0_1,
+.app_block_2_0_2,
+.app_block_3_0_1,
+.app_block_3_0_2,
+.app_block_4_0_1,
+.app_block_4_0_2 ,
+.app_block_5_0_1,
+.app_block_5_0_2 ,
+.app_block_6_0_1,
+.app_block_6_0_2 ,
+.app_block_7_0_1,
+.app_block_7_0_2 ,
+.app_block_8_0_1,
+.app_block_8_0_2  {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0;
+}
+.app_block_0_0_2,
+.app_block_1_0_2,
+.app_block_2_0_2,
+.app_block_3_0_2,
+.app_block_4_0_2,
+.app_block_5_0_2,
+.app_block_6_0_2,
+.app_block_7_0_2,
+.app_block_8_0_2 {
+    top: 25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    display: none;
+    opacity: 1;
+}
+.app_block_0_0_1.active,
+.app_block_0_0_2.active,
+.app_block_1_0_1.active,
+.app_block_1_0_2.active,
+.app_block_2_0_1.active,
+.app_block_2_0_2.active,
+.app_block_3_0_1.active,
+.app_block_3_0_2.active,
+.app_block_4_0_1.active,
+.app_block_4_0_2.active,
+.app_block_5_0_1.active,
+.app_block_5_0_2.active,
+.app_block_6_0_1.active,
+.app_block_6_0_2.active,
+.app_block_7_0_1.active,
+.app_block_7_0_2.active,
+.app_block_8_0_1.active,
+.app_block_8_0_2.active {
+    opacity: 1;
+    display: block;
+}
+.container_0 {
+    position: absolute;
+    width: 275px;
+    height: 36px;
+    left: calc(50% - 275px/2);
+    top: 50px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container_1,
+.container_2 {
+    position: absolute;
+    width: 0;
+    height: 298px;
+    left: 103px;
+    top: 5px;
+    border: 4px solid #D9D9D9;
+    border-radius: 4px;
+}
+.container_2 {
+    left: 206px;
+}
+.container_3,
+.container_4 {
+    position: absolute;
+    width: 298px;
+    height: 0;
+    left: 5px;
+    top: 103px;
+    border: 4px solid #D9D9D9;
+    border-radius: 4px;
+}
+.container_4 {
+    top: 206px;
+}
+.container_5,
+.container_6,
+.container_6_6 {
+    position: absolute;
+    left: -41px;
+    top: 440px;
+    width: 400px;
+    height: 70px;
+    padding-top: 30px;
+    background-color: #D9D9D9;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.container_5.active,
+.container_6.active,
+.container_6_6.active {
+    opacity: 1;
+}
+.container_7,
+.container_8,
+.container_9 {
+    position: absolute;
+    width: 0;
+    height: 278px;
+    left: 49px;
+    top: 15px;
+    border: 4px solid #a1a1a1;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    pointer-events: none;
+}
+.container_8 {
+    left: 155px;
+}
+.container_9 {
+    left: 258px;
+}
+.container_7.active,
+.container_8.active,
+.container_9.active {
+    opacity: 1;
+}
+.container_10,
+.container_11,
+.container_12 {
+    position: absolute;
+    width: 278px;
+    height: 0;
+    left: 15px;
+    top: 49px;
+    border: 4px solid #a1a1a1;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    pointer-events: none;
+}
+.container_11{
+    top: 155px;
+}
+.container_12{
+    top: 258px;
+}
+.container_10.active,
+.container_11.active,
+.container_12.active {
+    opacity: 1;
+}
+.container_13,
+.container_14 {
+    position: absolute;
+    width: 350px;
+    left: -20px;
+    top: 154px;
+    background-color: #a1a1a1;
+    border: 4px solid #a1a1a1;
+    border-radius: 4px;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    pointer-events: none;
+}
+.container_14 {
+    transform: rotate(-45deg);
+}
+.container_13.active,
+.container_14.active {
+    opacity: 1;
+}
+button {
+    position: absolute;
+    top: 650px;
+    left: calc(50% - 300px/2);
+    width: 300px;
+    height: 60px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border: none;
+}
+
+.form {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 202px/2 + 20px);
+    width: 202px;
+    height: 90px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: all 0.3s ease 0s;
+}
+.form.active {
+    opacity: 0.4;
+    pointer-events: none;
+}
+.radio_input,
+.radio_input1,
+.radio_input2,
+.radio_input3,
+.radio_input4 {
+    display: none;
+}
+.form_1,
+.form_2,
+.form_3 {
+    position: absolute;
+    top: 5px;
+    left: -50px;
+    width: 40px;
+    height: 20px;
+    background-color: rgb(127, 106, 224);
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+.form_2 {
+    top: 35px;
+}
+.form_3 {
+    top: 65px;
+}
+.form_1_1,
+.form_2_1,
+.form_3_1 {
+    position: absolute;
+    top: 9px;
+    left: -45px;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(241, 143, 143);
+    border-radius: 12px;
+    transition: all 0.3s ease 0s;
+}
+.form_2_1 {
+    top: 39px;
+}
+.form_3_1 {
+    top: 69px;
+}
+.radio_input:checked ~ .form_1 {
+    background-color: rgb(241, 143, 143);
+}
+.radio_input:checked ~ .form_1_1 {
+    left: -27px;
+    background-color: rgb(127, 106, 224);
+}
+.radio_input1:checked ~ .form_2 {
+    background-color: rgb(241, 143, 143);
+}
+.radio_input1:checked ~ .form_2_1 {
+    left: -27px;
+    background-color: rgb(127, 106, 224);
+}
+.radio_input2:checked ~ .form_3 {
+    background-color: rgb(241, 143, 143);
+}
+.radio_input2:checked ~ .form_3_1 {
+    left: -27px;
+    background-color: rgb(127, 106, 224);
+}
+
